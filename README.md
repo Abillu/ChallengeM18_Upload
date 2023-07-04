@@ -29,7 +29,7 @@
 ![block_chain and hashes_2](https://github.com/Abillu/ChallengeM18_Upload/assets/126644613/29720bd5-5259-48f1-abc8-d5fb3a7e0b4f)
 
 
-  * Test the blockchain validation process by clicking the "Validate Chain" button on the web interface, which should return "true" if  the blockchain isvalid as depicted below:
+  * Test the blockchain validation process by clicking the "Validate Chain" button on the web interface, which should return "true" if  the blockchain is valid as depicted below:
  ![block_chain_validation](https://github.com/Abillu/ChallengeM18_Upload/assets/126644613/6fb9824a-429b-4b36-ab42-750942feffb9)
 
 
