@@ -117,7 +117,7 @@ class PyChain:
 
             calculated_hash = block.hash_block()
 
-        print("Wining Hash", calculated_hash)
+        print("Winning Hash", calculated_hash)
         return block
 
     def add_block(self, candidate_block):
@@ -140,7 +140,7 @@ class PyChain:
 ################################################################################
 # Streamlit Code
 
-# Adds the cache decorator for Streamlit
+# Adds the coc decorator for Streamlit
 
 
 @st.cache(allow_output_mutation=True)
@@ -194,7 +194,7 @@ if st.button("Add Block"):
     # and `amount` values
     new_block = Block(
         record=Record(sender, receiver, amount),
-        prev_hash=prev_block_hash
+       creator_id=84, prev_hash=prev_block_hash
     )
 
     pychain.add_block(new_block)
@@ -219,7 +219,12 @@ selected_block = st.sidebar.selectbox(
 st.sidebar.write(selected_block)
 
 if st.button("Validate Chain"):
+    
     st.write(pychain.is_valid())
+    
+    
+    
+    
 
 ################################################################################
 # Step 4:
