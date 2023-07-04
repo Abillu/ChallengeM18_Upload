@@ -14,7 +14,7 @@
 
 ## Summary of the blockchain-based ledger system functionality
 
-  * System users in parter banks will be greeted with the following data input area:
+  * System users in partner banks will be greeted with the following data input area on the web interface:
 
 ![block_chain_data_input _area](https://github.com/Abillu/ChallengeM18_Upload/assets/126644613/b9eac2d1-78b3-455c-8709-2dd3531a643f)
 
