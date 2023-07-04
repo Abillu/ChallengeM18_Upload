@@ -10,7 +10,17 @@
 
   * Added Relevant User Inputs to the Streamlit Interface
 
-  * Tested the PyChain Ledger by Storing Records
+  * Tested the PyChain Ledger by Storing Record
+    
+## Libraries and Technologies Used
+
+ * Streamlit a python library for building web interface
+
+ * hashlib - Python library for industry-standard hashing functions
+
+ * dataclasses - to  define names and types of data in Python
+
+ *  Pandas library 
 
 ## Summary of the blockchain-based ledger system functionality
 
